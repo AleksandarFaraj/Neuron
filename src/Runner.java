@@ -21,7 +21,6 @@ public class Runner {
     }
 
     private static void learnNeuron() {
-        ai.n.clear();
         System.out.println("How many times to train the Neuron?");
         int learnTimes = Integer.parseInt(scanner.nextLine());
         ai.learnNeuron(learnTimes);

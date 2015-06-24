@@ -30,8 +30,8 @@ public class AITest {
                 {1, 1, 1}};
         int[][] leftGate = {
                 {0, 0, 0},
-                {0, 1, 1},
-                {1, 0, 0},
+                {0, 1, 0},
+                {1, 0, 1},
                 {1, 1, 1}};
         return Arrays.asList(new Object[][]{ // array with different types of trainingschedules for gates
                 {orGate},

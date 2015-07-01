@@ -50,7 +50,7 @@ public class Runner {
         System.out.printf("You got:%d\n", (int) (ai.n.process(inputA, inputB)));
     }
     public static void main(String[] args) {
-        ai = new AI(ai.trainingSchedule);
+        ai = new AI(exampleTrainingSchedule);
         while (true) {
             try {
                 showCurrentTrainingSchedule();
